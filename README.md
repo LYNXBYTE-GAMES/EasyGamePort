@@ -1,13 +1,13 @@
 <p align="center">
   <a href="https://www.lynxbytegames.eu/easygameport" target="_blank">
-    <img src="https://i.postimg.cc/8JGyD126/Logo-white.png" alt="EasyGamePort Logo" width="280"/>
+    <img src="https://i.postimg.cc/8JGyD126/Logo-white.png" alt="EasyGamePort Logo" width="180"/>
   </a>
 </p>
 
 <h1 align="center">🎮 EasyGamePort</h1>
 
 <p align="center">
-  <b>One plugin that ports your game to consoles - automatically.</b><br/>
+  <b>One open-source plugin that ports your game to consoles - automatically.</b><br/>
   <a href="https://www.lynxbytegames.eu/easygameport">🌐 Landing Page</a> •
   <a href="https://discord.gg/zWbNC6vwRz">💬 Join our Discord</a> •
   <a href="https://github.com/lynxbytegames/EasyGamePort/issues">🐞 Report a Bug</a>
@@ -17,7 +17,7 @@
 
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 [![Unity](https://img.shields.io/badge/Unity-2020%2B-blue)](https://unity.com/)
-[![Unreal](https://img.shields.io/badge/Unreal-5.x-blue)](https://www.unrealengine.com/)
+[![Unreal](https://img.shields.io/badge/Unreal-5-blue)](https://www.unrealengine.com/)
 [![Contributors](https://img.shields.io/github/contributors/lynxbytegames/EasyGamePort)](https://github.com/lynxbytegames/EasyGamePort/graphs/contributors)
 
 ---
@@ -30,7 +30,6 @@ It comes with a **built-in AI Agent** and a **knowledge base** so that when you 
 
 It handles:  
 - Save systems and slot management  
-- Controller input mapping  
 - Achievements / trophies  
 - Console activities and presence  
 - Certification checklist helpers  
@@ -65,7 +64,6 @@ Traditional console porting is:
 **The plugin + AI Agent + knowledge base workflow:**
 
 1. **Install the plugin** – add EasyGamePort to your Unity or Unreal project.  
-2. **Select the target platform** – PlayStation, Xbox, or Switch presets.  
 3. **AI Agent analyzes your project** – the knowledge base provides platform rules and best practices.  
 4. **Auto-implement essentials** – saves, input, achievements, console activities are added automatically.  
 5. **Follow step-by-step plan** – test on devkit, the AI fixes errors automatically.  
@@ -87,7 +85,7 @@ Traditional console porting is:
 
 ---
 
-## 📥 Installation
+## 📥 Installation (available Q1 2026)
 
 ### Unity
 
@@ -102,7 +100,7 @@ Traditional console porting is:
 1. Clone the repository into your `Plugins` folder.  
 2. Enable EasyGamePort in **Edit → Plugins**.  
 3. Restart the engine.  
-4. Open the EasyGamePort panel and select your target platform.  
+4. Open the EasyGamePort panel and select your target platform and follow the AI-guided instructions.  
 
 ---
 
@@ -128,8 +126,7 @@ We encourage **sharing your own files and enhancements** to help the community g
 ## 🎯 Special Offer
 
 We’re currently looking for **5 projects** to port in-house using EasyGamePort:  
-- **Fee:** ~$1–2k one-time (calculated at $150/hour, fixed upfront)  
-- **Revenue Share:** 15% optional (negotiable)  
+- **Fee:** 1/10th price of the normal port
 - Includes setup, QA, and minor asset adjustments  
 
 This is a low-cost way to get a **ready console port** while we continue improving the plugin.
