@@ -7,7 +7,7 @@
 <h1 align="center">🎮 EasyGamePort</h1>
 
 <p align="center">
-  <b>One open-source plugin that ports your game to consoles - automatically.</b><br/>
+  <b>AI agent that turns PC builds into console-ready releases.</b><br/>
   <a href="https://www.lynxbytegames.eu/easygameport">🌐 Landing Page</a> •
   <a href="https://discord.gg/zWbNC6vwRz">💬 Join our Discord</a> •
   <a href="https://github.com/lynxbytegames/EasyGamePort/issues">🐞 Report a Bug</a>
@@ -24,9 +24,9 @@
 
 ## 🚀 Overview
 
-**EasyGamePort** is an **open-source plugin** for **Unity** and **Unreal Engine** that automates up to **70% of the console porting process**.  
+**EasyGamePort** is an **open-source plugin** for **Unity** and **Unreal Engine** that automates console porting workflows end-to-end.  
 
-It comes with a **built-in AI Agent** and a **knowledge base** so that when you download the plugin, you immediately have everything you need to start porting your game.  
+It comes with a **built-in AI Agent**, a **knowledge base**, and a curated automation task catalog so that when you download the plugin, you immediately have everything you need to start porting your game.  
 
 It handles:  
 - Save systems and slot management  
@@ -51,7 +51,7 @@ Traditional console porting is:
 - ❌ Painful (cert rejections, SDK issues, controller mapping nightmares)  
 
 **EasyGamePort** changes that:  
-- 🩷 Automates 70% of the process  
+- 🩷 Automates the porting workflow end-to-end  
 - 🩷 AI-guided setup and code analysis  
 - 🩷 Ready-to-use systems for saves, input, achievements, and activities  
 - 🩷 Reduces porting time from months to days  
@@ -64,12 +64,28 @@ Traditional console porting is:
 **The plugin + AI Agent + knowledge base workflow:**
 
 1. **Install the plugin** – add EasyGamePort to your Unity or Unreal project.  
-3. **AI Agent analyzes your project** – the knowledge base provides platform rules and best practices.  
-4. **Auto-implement essentials** – saves, input, achievements, console activities are added automatically.  
-5. **Follow step-by-step plan** – test on devkit, the AI fixes errors automatically.  
-6. **Certification checklist** – iterate to stability and compliance.
+2. **AI Agent analyzes your project** – the knowledge base provides platform rules and best practices.  
+3. **Auto-implement essentials** – saves, input, achievements, console activities are added automatically.  
+4. **Follow step-by-step plan** – test on devkit, the AI fixes errors automatically.  
+5. **Certification checklist** – iterate to stability and compliance.
 
 🟩 *Result:* A ready-to-publish console build in **days**, not months.
+
+---
+
+## 🔌 Integrations & Automation
+- Deep hooks into Unity and Unreal via MCP to access engine objects and automate repetitive editor tasks.
+- Console SDK adapters that validate requirements, generate TODOs, and rebuild projects for each platform.
+- Automated patches for input, save systems, achievements, and console activities to keep builds cert-ready.
+- Retrieval-backed AI guidance sourced from platform docs, past logs, and indexed project history.
+
+---
+
+## 🧰 In-Editor Experience
+- Open the dockable window via `Window → EasyGamePort`; Unity remembers your layout between sessions.
+- A staged loading sequence initializes the catalog, showing progress for initialization, project analysis, and final checks.
+- Browse curated automation tasks, expand them for guidance, and execute runs with live status chips (Idle, Running, Completed, Error) and streamed logs.
+- Customize workflows by editing or adding tasks, swapping IMGUI for UI Toolkit, or piping in a live backend agent through the existing state hooks.
 
 ---
 
